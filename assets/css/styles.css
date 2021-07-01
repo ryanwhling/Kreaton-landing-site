@@ -409,11 +409,13 @@ section.features .col-4 {
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 0px;
+    align-self: center;
 }
 
 .features-content h4 i {
     margin-right: 15px;
     font-size: 24px;
+    align-self: center;
 }
 
 .features-content p {
@@ -599,13 +601,13 @@ section.why-us {
     padding-right: 45px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 
   .tabs-content img {
       padding-right: 0px;
   }
 
-}
+} */
 
 
 /* Coming Soon */
@@ -1472,6 +1474,18 @@ td{
   padding-left: 80px;
   padding-right: 80px;
   letter-spacing: 1px;
+}
+
+td:first-child{
+  font-weight: bold;
+  padding-left: 90px;
+  padding-right: 0px;
+}
+
+td:last-child{
+  padding-left: 0px;
+  padding-right: 90px;
+  width: 0px;
 }
 
 td[colspan="2"]{
